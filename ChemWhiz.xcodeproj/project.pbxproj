@@ -19,7 +19,6 @@
 		16A090F11C21D55E00F840D9 /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A090F01C21D55E00F840D9 /* ActionViewController.swift */; };
 		16A090F41C21D55E00F840D9 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16A090F21C21D55E00F840D9 /* MainInterface.storyboard */; };
 		16A090F81C21D55E00F840D9 /* Calculate Molar Mass.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 16A090EE1C21D55D00F840D9 /* Calculate Molar Mass.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		16A090FC1C21D57D00F840D9 /* Chemical Symbols.plist in Resources */ = {isa = PBXBuildFile; fileRef = 16EDC0FB1C0832CB0094448E /* Chemical Symbols.plist */; };
 		16A090FD1C21D58100F840D9 /* MolarMassCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EDC0F71C07F7030094448E /* MolarMassCalculator.m */; };
 		16A090FE1C22512E00F840D9 /* ShowWorkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163508EE1C0A3050000F2F54 /* ShowWorkViewController.swift */; };
 		16A090FF1C22519500F840D9 /* GrowPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163508EA1C0A3017000F2F54 /* GrowPresentation.swift */; };
@@ -30,13 +29,14 @@
 		16A409051C20D6D300ADB213 /* Molar Mass Calculator.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 16A408F81C20D6D300ADB213 /* Molar Mass Calculator.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		16A409351C20F45D00ADB213 /* MolarMassCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EDC0F71C07F7030094448E /* MolarMassCalculator.m */; };
 		16A409361C20F45D00ADB213 /* MolarMassCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EDC0F71C07F7030094448E /* MolarMassCalculator.m */; };
-		16A4093D1C20FB7600ADB213 /* Chemical Symbols.plist in Resources */ = {isa = PBXBuildFile; fileRef = 16EDC0FB1C0832CB0094448E /* Chemical Symbols.plist */; };
+		16A916391DAFEC9D00E80868 /* Chemical Symbols.plist in Resources */ = {isa = PBXBuildFile; fileRef = 16A916381DAFEC9D00E80868 /* Chemical Symbols.plist */; };
+		16A9163A1DAFEC9D00E80868 /* Chemical Symbols.plist in Resources */ = {isa = PBXBuildFile; fileRef = 16A916381DAFEC9D00E80868 /* Chemical Symbols.plist */; };
+		16A9163B1DAFEC9D00E80868 /* Chemical Symbols.plist in Resources */ = {isa = PBXBuildFile; fileRef = 16A916381DAFEC9D00E80868 /* Chemical Symbols.plist */; };
 		16B74B1B1CFD331E000B443B /* ConversionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B74B1A1CFD331E000B443B /* ConversionsViewController.swift */; };
 		16E4DC301CFE74EC00865985 /* ConversionResultTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E4DC2F1CFE74EC00865985 /* ConversionResultTableViewController.swift */; };
 		16E4DC341CFE79D400865985 /* SlideUpTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E4DC331CFE79D400865985 /* SlideUpTransition.swift */; };
 		16E4DC361CFE7A2900865985 /* SlideUpPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E4DC351CFE7A2900865985 /* SlideUpPresentation.swift */; };
 		16EDC0FA1C08306F0094448E /* MolarMassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EDC0F91C08306F0094448E /* MolarMassViewController.swift */; };
-		16EDC0FC1C0832CB0094448E /* Chemical Symbols.plist in Resources */ = {isa = PBXBuildFile; fileRef = 16EDC0FB1C0832CB0094448E /* Chemical Symbols.plist */; };
 		16EDC0FE1C08341F0094448E /* SlideFromLeftTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EDC0FD1C08341F0094448E /* SlideFromLeftTransition.swift */; };
 		16EDC1001C08386A0094448E /* ExamplesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EDC0FF1C08386A0094448E /* ExamplesViewController.swift */; };
 		16EDC1021C083A530094448E /* SlideFromLeftPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EDC1011C083A530094448E /* SlideFromLeftPresentation.swift */; };
@@ -110,6 +110,7 @@
 		16A409021C20D6D300ADB213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16A409331C20F35A00ADB213 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		16A409381C20F4F700ADB213 /* ChemWhiz-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ChemWhiz-Bridging-Header.h"; sourceTree = "<group>"; };
+		16A916381DAFEC9D00E80868 /* Chemical Symbols.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Chemical Symbols.plist"; sourceTree = "<group>"; };
 		16B74B1A1CFD331E000B443B /* ConversionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversionsViewController.swift; sourceTree = "<group>"; };
 		16E4DC2F1CFE74EC00865985 /* ConversionResultTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversionResultTableViewController.swift; sourceTree = "<group>"; };
 		16E4DC331CFE79D400865985 /* SlideUpTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideUpTransition.swift; sourceTree = "<group>"; };
@@ -117,7 +118,6 @@
 		16EDC0F61C07F7030094448E /* MolarMassCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MolarMassCalculator.h; sourceTree = "<group>"; };
 		16EDC0F71C07F7030094448E /* MolarMassCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MolarMassCalculator.m; sourceTree = "<group>"; };
 		16EDC0F91C08306F0094448E /* MolarMassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MolarMassViewController.swift; sourceTree = "<group>"; };
-		16EDC0FB1C0832CB0094448E /* Chemical Symbols.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Chemical Symbols.plist"; path = "../../../Current Releases/ChemWhiz/Chemical Symbols.plist"; sourceTree = "<group>"; };
 		16EDC0FD1C08341F0094448E /* SlideFromLeftTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideFromLeftTransition.swift; sourceTree = "<group>"; };
 		16EDC0FF1C08386A0094448E /* ExamplesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExamplesViewController.swift; sourceTree = "<group>"; };
 		16EDC1011C083A530094448E /* SlideFromLeftPresentation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideFromLeftPresentation.swift; sourceTree = "<group>"; };
@@ -191,7 +191,7 @@
 				166632AB1CFEAB7A009E0B41 /* Elements Tab */,
 				16EDC0F61C07F7030094448E /* MolarMassCalculator.h */,
 				16EDC0F71C07F7030094448E /* MolarMassCalculator.m */,
-				16EDC0FB1C0832CB0094448E /* Chemical Symbols.plist */,
+				16A916381DAFEC9D00E80868 /* Chemical Symbols.plist */,
 				1697B4621BF6F0E200FB7F20 /* LaunchScreen.storyboard */,
 				16FBF7EA1C23451900B925BE /* Assets.xcassets */,
 				16A409381C20F4F700ADB213 /* ChemWhiz-Bridging-Header.h */,
@@ -367,7 +367,7 @@
 				1697B4641BF6F0E200FB7F20 /* LaunchScreen.storyboard in Resources */,
 				1697B45F1BF6F0E200FB7F20 /* Main.storyboard in Resources */,
 				16FBF7EB1C23451900B925BE /* Assets.xcassets in Resources */,
-				16EDC0FC1C0832CB0094448E /* Chemical Symbols.plist in Resources */,
+				16A916391DAFEC9D00E80868 /* Chemical Symbols.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,9 +375,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16A9163B1DAFEC9D00E80868 /* Chemical Symbols.plist in Resources */,
 				16A090F41C21D55E00F840D9 /* MainInterface.storyboard in Resources */,
 				16FBF7ED1C23451900B925BE /* Assets.xcassets in Resources */,
-				16A090FC1C21D57D00F840D9 /* Chemical Symbols.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,7 +385,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16A4093D1C20FB7600ADB213 /* Chemical Symbols.plist in Resources */,
+				16A9163A1DAFEC9D00E80868 /* Chemical Symbols.plist in Resources */,
 				16FBF7EC1C23451900B925BE /* Assets.xcassets in Resources */,
 				16A409011C20D6D300ADB213 /* MainInterface.storyboard in Resources */,
 			);
