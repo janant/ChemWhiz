@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0710"
+   LastUpgradeVersion = "0800"
    wasCreatedForAppExtension = "YES"
    version = "2.0">
    <BuildAction
@@ -15,7 +15,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "167B2BA01BDD53FA00649D92"
+               BlueprintIdentifier = "16A090ED1C21D55D00F840D9"
                BuildableName = "Calculate Molar Mass.appex"
                BlueprintName = "Calculate Molar Mass"
                ReferencedContainer = "container:ChemWhiz.xcodeproj">
@@ -29,7 +29,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "16FCF6CE18CBC40400A0E4B4"
+               BlueprintIdentifier = "1697B4551BF6F0E200FB7F20"
                BuildableName = "ChemWhiz.app"
                BlueprintName = "ChemWhiz"
                ReferencedContainer = "container:ChemWhiz.xcodeproj">
@@ -47,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "167B2BA01BDD53FA00649D92"
+            BlueprintIdentifier = "16A090ED1C21D55D00F840D9"
             BuildableName = "Calculate Molar Mass.appex"
             BlueprintName = "Calculate Molar Mass"
             ReferencedContainer = "container:ChemWhiz.xcodeproj">
@@ -67,16 +67,20 @@
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES"
       launchAutomaticallySubstyle = "2">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/Today">
+      </RemoteRunnable>
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "16FCF6CE18CBC40400A0E4B4"
+            BlueprintIdentifier = "1697B4551BF6F0E200FB7F20"
             BuildableName = "ChemWhiz.app"
             BlueprintName = "ChemWhiz"
             ReferencedContainer = "container:ChemWhiz.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -91,7 +95,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "16FCF6CE18CBC40400A0E4B4"
+            BlueprintIdentifier = "1697B4551BF6F0E200FB7F20"
             BuildableName = "ChemWhiz.app"
             BlueprintName = "ChemWhiz"
             ReferencedContainer = "container:ChemWhiz.xcodeproj">

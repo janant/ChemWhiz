@@ -7,32 +7,56 @@
 		<key>Calculate Molar Mass.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>4</integer>
 		</dict>
 		<key>ChemWhiz.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>Molar Mass Calculator.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>MolarMassCalculator.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>MolarMassKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>167B2BA01BDD53FA00649D92</key>
+		<key>1697B4551BF6F0E200FB7F20</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>167B2BB31BDD545400649D92</key>
+		<key>16A090ED1C21D55D00F840D9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>16FCF6CE18CBC40400A0E4B4</key>
+		<key>16A408F71C20D6D300ADB213</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>16FCF6E918CBC40400A0E4B4</key>
+		<key>16A409101C20EF9F00ADB213</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>16A409241C20F2B700ADB213</key>
 		<dict>
 			<key>primary</key>
 			<true/>

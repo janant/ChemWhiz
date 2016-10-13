@@ -7,475 +7,284 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		16010CA818CBDE5C004FF113 /* Button Image.png in Resources */ = {isa = PBXBuildFile; fileRef = 16010CA618CBDE5C004FF113 /* Button Image.png */; };
-		16010CA918CBDE5C004FF113 /* Button Image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16010CA718CBDE5C004FF113 /* Button Image@2x.png */; };
-		16010CAB18CBEDA7004FF113 /* Black Gradient Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 16010CAA18CBEDA7004FF113 /* Black Gradient Background.png */; };
-		16010CB018CBF8FD004FF113 /* iPadIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 16010CAD18CBF8FD004FF113 /* iPadIcon.png */; };
-		16010CB118CBF8FD004FF113 /* iPadIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16010CAE18CBF8FD004FF113 /* iPadIcon@2x.png */; };
-		16010CB218CBF8FD004FF113 /* iPhoneIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16010CAF18CBF8FD004FF113 /* iPhoneIcon@2x.png */; };
-		16010CB518CBFD25004FF113 /* ConversionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16010CB418CBFD25004FF113 /* ConversionsViewController.m */; };
-		16010CBB18CC03F3004FF113 /* MassTab-Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 16010CB718CC03F3004FF113 /* MassTab-Selected.png */; };
-		16010CBC18CC03F3004FF113 /* MassTab-Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16010CB818CC03F3004FF113 /* MassTab-Selected@2x.png */; };
-		16010CBD18CC03F3004FF113 /* MassTab.png in Resources */ = {isa = PBXBuildFile; fileRef = 16010CB918CC03F3004FF113 /* MassTab.png */; };
-		16010CBE18CC03F3004FF113 /* MassTab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16010CBA18CC03F3004FF113 /* MassTab@2x.png */; };
-		16010CC618CC0763004FF113 /* ConversionsTab.png in Resources */ = {isa = PBXBuildFile; fileRef = 16010CC218CC0763004FF113 /* ConversionsTab.png */; };
-		16010CC718CC0763004FF113 /* ConversionsTab-Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 16010CC318CC0763004FF113 /* ConversionsTab-Selected.png */; };
-		16010CC818CC0763004FF113 /* ConversionsTab-Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16010CC418CC0763004FF113 /* ConversionsTab-Selected@2x.png */; };
-		16010CC918CC0763004FF113 /* ConversionsTab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16010CC518CC0763004FF113 /* ConversionsTab@2x.png */; };
-		16010CCE18CC09D5004FF113 /* ElementsTab.png in Resources */ = {isa = PBXBuildFile; fileRef = 16010CCA18CC09D5004FF113 /* ElementsTab.png */; };
-		16010CCF18CC09D5004FF113 /* ElementsTab-Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 16010CCB18CC09D5004FF113 /* ElementsTab-Selected.png */; };
-		16010CD018CC09D5004FF113 /* ElementsTab-Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16010CCC18CC09D5004FF113 /* ElementsTab-Selected@2x.png */; };
-		16010CD118CC09D5004FF113 /* ElementsTab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16010CCD18CC09D5004FF113 /* ElementsTab@2x.png */; };
-		16279FEF18CC22BB0005BD30 /* AnswersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16279FEE18CC22BB0005BD30 /* AnswersViewController.m */; };
-		16279FF118CC338B0005BD30 /* Chemical Symbols.plist in Resources */ = {isa = PBXBuildFile; fileRef = 16279FF018CC338B0005BD30 /* Chemical Symbols.plist */; };
-		16279FF318CC48B50005BD30 /* Launch Image iPhone 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 16279FF218CC48B50005BD30 /* Launch Image iPhone 5.png */; };
-		16279FF618CC49030005BD30 /* Launch Image iPhone 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 16279FF518CC49030005BD30 /* Launch Image iPhone 4.png */; };
-		166975AF18CFFEAD00761160 /* App Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 166975AE18CFFEAD00761160 /* App Icon.png */; };
-		167B2BB71BDD545400649D92 /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167B2BB61BDD545400649D92 /* ActionViewController.swift */; };
-		167B2BBA1BDD545400649D92 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 167B2BB81BDD545400649D92 /* MainInterface.storyboard */; };
-		167B2BBE1BDD545400649D92 /* Calculate Molar Mass.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 167B2BB41BDD545400649D92 /* Calculate Molar Mass.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		167BDE03191AA8720012BEC4 /* Black Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 167BDDFD191AA8720012BEC4 /* Black Icon.png */; };
-		167BDE04191AA8720012BEC4 /* Blue Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 167BDDFE191AA8720012BEC4 /* Blue Icon.png */; };
-		167BDE05191AA8720012BEC4 /* Green Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 167BDDFF191AA8720012BEC4 /* Green Icon.png */; };
-		167BDE06191AA8720012BEC4 /* Red Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 167BDE00191AA8720012BEC4 /* Red Icon.png */; };
-		167BDE07191AA8720012BEC4 /* White Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 167BDE01191AA8720012BEC4 /* White Icon.png */; };
-		167BDE08191AA8720012BEC4 /* Yellow Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 167BDE02191AA8720012BEC4 /* Yellow Icon.png */; };
-		1684EEA219023D93002B0A2A /* ShowWorkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1684EEA119023D93002B0A2A /* ShowWorkViewController.m */; };
-		1684EEA519023F1A002B0A2A /* GrowAnimatedTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1684EEA419023F1A002B0A2A /* GrowAnimatedTransition.m */; };
-		168F75DD18CEBAFA003B0660 /* ElementInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 168F75DC18CEBAFA003B0660 /* ElementInfoViewController.m */; };
-		168F75DF18CEC333003B0660 /* White Gradient Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 168F75DE18CEC333003B0660 /* White Gradient Background.png */; };
-		168F75E218CEC42F003B0660 /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 168F75E118CEC42F003B0660 /* MoreViewController.m */; };
-		16A2BA4C18FF18510016FB05 /* ThemesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A2BA4B18FF18510016FB05 /* ThemesViewController.m */; };
-		16A2BA5018FF1F7C0016FB05 /* Black Checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 16A2BA4D18FF1F7C0016FB05 /* Black Checkmark.png */; };
-		16A2BA5118FF1F7C0016FB05 /* Blue Checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 16A2BA4E18FF1F7C0016FB05 /* Blue Checkmark.png */; };
-		16A2BA5218FF1F7C0016FB05 /* White Checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 16A2BA4F18FF1F7C0016FB05 /* White Checkmark.png */; };
-		16A2BA5818FF25C20016FB05 /* Green Gradient Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 16A2BA5718FF25C20016FB05 /* Green Gradient Background.png */; };
-		16A2BA5C18FF30350016FB05 /* Blue Gradient Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 16A2BA5B18FF30350016FB05 /* Blue Gradient Background.png */; };
-		16A2BA5E18FF34300016FB05 /* Yellow Gradient Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 16A2BA5D18FF34300016FB05 /* Yellow Gradient Background.png */; };
-		16A2BA6018FF371C0016FB05 /* Red Gradient Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 16A2BA5F18FF371C0016FB05 /* Red Gradient Background.png */; };
-		16CE82A618D3CA0B006494A4 /* FormattingGuidelines.txt in Resources */ = {isa = PBXBuildFile; fileRef = 16CE82A518D3CA0B006494A4 /* FormattingGuidelines.txt */; };
-		16CE82A918D3CBC9006494A4 /* GuidelinesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CE82A818D3CBC9006494A4 /* GuidelinesViewController.m */; };
-		16D99F011BDF13810060B1BD /* MassCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D99F001BDF13810060B1BD /* MassCalculator.m */; };
-		16D9A92318CC66BB00E8D72A /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D9A92218CC66BB00E8D72A /* AboutViewController.m */; };
-		16E31C3518D41435008330D7 /* ElementsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E31C3418D41435008330D7 /* ElementsViewController.m */; };
-		16FB5AAC1BDC335300D295A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16FB5AAB1BDC335300D295A8 /* LaunchScreen.storyboard */; };
-		16FCF6D318CBC40400A0E4B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16FCF6D218CBC40400A0E4B4 /* Foundation.framework */; };
-		16FCF6D518CBC40400A0E4B4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16FCF6D418CBC40400A0E4B4 /* CoreGraphics.framework */; };
-		16FCF6D718CBC40400A0E4B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16FCF6D618CBC40400A0E4B4 /* UIKit.framework */; };
-		16FCF6DD18CBC40400A0E4B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 16FCF6DB18CBC40400A0E4B4 /* InfoPlist.strings */; };
-		16FCF6DF18CBC40400A0E4B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16FCF6DE18CBC40400A0E4B4 /* main.m */; };
-		16FCF6E318CBC40400A0E4B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16FCF6E218CBC40400A0E4B4 /* AppDelegate.m */; };
-		16FCF6E518CBC40400A0E4B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16FCF6E418CBC40400A0E4B4 /* Images.xcassets */; };
-		16FCF6EC18CBC40400A0E4B4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16FCF6EB18CBC40400A0E4B4 /* XCTest.framework */; };
-		16FCF6ED18CBC40400A0E4B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16FCF6D218CBC40400A0E4B4 /* Foundation.framework */; };
-		16FCF6EE18CBC40400A0E4B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16FCF6D618CBC40400A0E4B4 /* UIKit.framework */; };
-		16FCF6F618CBC40400A0E4B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 16FCF6F418CBC40400A0E4B4 /* InfoPlist.strings */; };
-		16FCF6F818CBC40400A0E4B4 /* ChemWhizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16FCF6F718CBC40400A0E4B4 /* ChemWhizTests.m */; };
-		16FCF70218CBC4D700A0E4B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16FCF70118CBC4D700A0E4B4 /* Main.storyboard */; };
-		16FCF70718CBC88000A0E4B4 /* MolarMassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16FCF70618CBC88000A0E4B4 /* MolarMassViewController.m */; };
+		163508EB1C0A3017000F2F54 /* GrowPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163508EA1C0A3017000F2F54 /* GrowPresentation.swift */; };
+		163508ED1C0A303C000F2F54 /* GrowTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163508EC1C0A303C000F2F54 /* GrowTransition.swift */; };
+		163508EF1C0A3050000F2F54 /* ShowWorkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163508EE1C0A3050000F2F54 /* ShowWorkViewController.swift */; };
+		166632A81CFEAB5E009E0B41 /* ElementsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166632A71CFEAB5E009E0B41 /* ElementsTableViewController.swift */; };
+		166632AA1CFEAB76009E0B41 /* ElementDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166632A91CFEAB76009E0B41 /* ElementDetailViewController.swift */; };
+		166632AD1CFEAB93009E0B41 /* ElementsSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166632AC1CFEAB93009E0B41 /* ElementsSplitViewController.swift */; };
+		1697B45A1BF6F0E200FB7F20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1697B4591BF6F0E200FB7F20 /* AppDelegate.swift */; };
+		1697B45F1BF6F0E200FB7F20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1697B45D1BF6F0E200FB7F20 /* Main.storyboard */; };
+		1697B4641BF6F0E200FB7F20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1697B4621BF6F0E200FB7F20 /* LaunchScreen.storyboard */; };
+		16A090F11C21D55E00F840D9 /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A090F01C21D55E00F840D9 /* ActionViewController.swift */; };
+		16A090F41C21D55E00F840D9 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16A090F21C21D55E00F840D9 /* MainInterface.storyboard */; };
+		16A090F81C21D55E00F840D9 /* Calculate Molar Mass.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 16A090EE1C21D55D00F840D9 /* Calculate Molar Mass.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		16A090FC1C21D57D00F840D9 /* Chemical Symbols.plist in Resources */ = {isa = PBXBuildFile; fileRef = 16EDC0FB1C0832CB0094448E /* Chemical Symbols.plist */; };
+		16A090FD1C21D58100F840D9 /* MolarMassCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EDC0F71C07F7030094448E /* MolarMassCalculator.m */; };
+		16A090FE1C22512E00F840D9 /* ShowWorkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163508EE1C0A3050000F2F54 /* ShowWorkViewController.swift */; };
+		16A090FF1C22519500F840D9 /* GrowPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163508EA1C0A3017000F2F54 /* GrowPresentation.swift */; };
+		16A091001C22519700F840D9 /* GrowTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163508EC1C0A303C000F2F54 /* GrowTransition.swift */; };
+		16A408FB1C20D6D300ADB213 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16A408FA1C20D6D300ADB213 /* NotificationCenter.framework */; };
+		16A408FE1C20D6D300ADB213 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A408FD1C20D6D300ADB213 /* TodayViewController.swift */; };
+		16A409011C20D6D300ADB213 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16A408FF1C20D6D300ADB213 /* MainInterface.storyboard */; };
+		16A409051C20D6D300ADB213 /* Molar Mass Calculator.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 16A408F81C20D6D300ADB213 /* Molar Mass Calculator.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		16A409351C20F45D00ADB213 /* MolarMassCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EDC0F71C07F7030094448E /* MolarMassCalculator.m */; };
+		16A409361C20F45D00ADB213 /* MolarMassCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EDC0F71C07F7030094448E /* MolarMassCalculator.m */; };
+		16A4093D1C20FB7600ADB213 /* Chemical Symbols.plist in Resources */ = {isa = PBXBuildFile; fileRef = 16EDC0FB1C0832CB0094448E /* Chemical Symbols.plist */; };
+		16B74B1B1CFD331E000B443B /* ConversionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B74B1A1CFD331E000B443B /* ConversionsViewController.swift */; };
+		16E4DC301CFE74EC00865985 /* ConversionResultTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E4DC2F1CFE74EC00865985 /* ConversionResultTableViewController.swift */; };
+		16E4DC341CFE79D400865985 /* SlideUpTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E4DC331CFE79D400865985 /* SlideUpTransition.swift */; };
+		16E4DC361CFE7A2900865985 /* SlideUpPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E4DC351CFE7A2900865985 /* SlideUpPresentation.swift */; };
+		16EDC0FA1C08306F0094448E /* MolarMassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EDC0F91C08306F0094448E /* MolarMassViewController.swift */; };
+		16EDC0FC1C0832CB0094448E /* Chemical Symbols.plist in Resources */ = {isa = PBXBuildFile; fileRef = 16EDC0FB1C0832CB0094448E /* Chemical Symbols.plist */; };
+		16EDC0FE1C08341F0094448E /* SlideFromLeftTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EDC0FD1C08341F0094448E /* SlideFromLeftTransition.swift */; };
+		16EDC1001C08386A0094448E /* ExamplesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EDC0FF1C08386A0094448E /* ExamplesViewController.swift */; };
+		16EDC1021C083A530094448E /* SlideFromLeftPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EDC1011C083A530094448E /* SlideFromLeftPresentation.swift */; };
+		16FBF7EB1C23451900B925BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16FBF7EA1C23451900B925BE /* Assets.xcassets */; };
+		16FBF7EC1C23451900B925BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16FBF7EA1C23451900B925BE /* Assets.xcassets */; };
+		16FBF7ED1C23451900B925BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16FBF7EA1C23451900B925BE /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		167B2BBC1BDD545400649D92 /* PBXContainerItemProxy */ = {
+		16A090F61C21D55E00F840D9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 16FCF6C718CBC40400A0E4B4 /* Project object */;
+			containerPortal = 1697B44E1BF6F0E200FB7F20 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 167B2BB31BDD545400649D92;
+			remoteGlobalIDString = 16A090ED1C21D55D00F840D9;
 			remoteInfo = "Calculate Molar Mass";
 		};
-		16FCF6EF18CBC40400A0E4B4 /* PBXContainerItemProxy */ = {
+		16A409031C20D6D300ADB213 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 16FCF6C718CBC40400A0E4B4 /* Project object */;
+			containerPortal = 1697B44E1BF6F0E200FB7F20 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 16FCF6CE18CBC40400A0E4B4;
-			remoteInfo = ChemWhiz;
+			remoteGlobalIDString = 16A408F71C20D6D300ADB213;
+			remoteInfo = "Molar Mass Calculator";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		167B2BAF1BDD53FA00649D92 /* Embed App Extensions */ = {
+		16A409091C20D6D300ADB213 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				167B2BBE1BDD545400649D92 /* Calculate Molar Mass.appex in Embed App Extensions */,
+				16A409051C20D6D300ADB213 /* Molar Mass Calculator.appex in Embed App Extensions */,
+				16A090F81C21D55E00F840D9 /* Calculate Molar Mass.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16A4091D1C20EF9F00ADB213 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		16010CA618CBDE5C004FF113 /* Button Image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button Image.png"; sourceTree = "<group>"; };
-		16010CA718CBDE5C004FF113 /* Button Image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button Image@2x.png"; sourceTree = "<group>"; };
-		16010CAA18CBEDA7004FF113 /* Black Gradient Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Black Gradient Background.png"; sourceTree = "<group>"; };
-		16010CAD18CBF8FD004FF113 /* iPadIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadIcon.png; sourceTree = "<group>"; };
-		16010CAE18CBF8FD004FF113 /* iPadIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPadIcon@2x.png"; sourceTree = "<group>"; };
-		16010CAF18CBF8FD004FF113 /* iPhoneIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhoneIcon@2x.png"; sourceTree = "<group>"; };
-		16010CB318CBFD25004FF113 /* ConversionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConversionsViewController.h; sourceTree = "<group>"; };
-		16010CB418CBFD25004FF113 /* ConversionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConversionsViewController.m; sourceTree = "<group>"; };
-		16010CB718CC03F3004FF113 /* MassTab-Selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MassTab-Selected.png"; sourceTree = "<group>"; };
-		16010CB818CC03F3004FF113 /* MassTab-Selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MassTab-Selected@2x.png"; sourceTree = "<group>"; };
-		16010CB918CC03F3004FF113 /* MassTab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MassTab.png; sourceTree = "<group>"; };
-		16010CBA18CC03F3004FF113 /* MassTab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MassTab@2x.png"; sourceTree = "<group>"; };
-		16010CC218CC0763004FF113 /* ConversionsTab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ConversionsTab.png; sourceTree = "<group>"; };
-		16010CC318CC0763004FF113 /* ConversionsTab-Selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ConversionsTab-Selected.png"; sourceTree = "<group>"; };
-		16010CC418CC0763004FF113 /* ConversionsTab-Selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ConversionsTab-Selected@2x.png"; sourceTree = "<group>"; };
-		16010CC518CC0763004FF113 /* ConversionsTab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ConversionsTab@2x.png"; sourceTree = "<group>"; };
-		16010CCA18CC09D5004FF113 /* ElementsTab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ElementsTab.png; sourceTree = "<group>"; };
-		16010CCB18CC09D5004FF113 /* ElementsTab-Selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ElementsTab-Selected.png"; sourceTree = "<group>"; };
-		16010CCC18CC09D5004FF113 /* ElementsTab-Selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ElementsTab-Selected@2x.png"; sourceTree = "<group>"; };
-		16010CCD18CC09D5004FF113 /* ElementsTab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ElementsTab@2x.png"; sourceTree = "<group>"; };
-		16279FED18CC22BB0005BD30 /* AnswersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnswersViewController.h; sourceTree = "<group>"; };
-		16279FEE18CC22BB0005BD30 /* AnswersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnswersViewController.m; sourceTree = "<group>"; };
-		16279FF018CC338B0005BD30 /* Chemical Symbols.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Chemical Symbols.plist"; sourceTree = "<group>"; };
-		16279FF218CC48B50005BD30 /* Launch Image iPhone 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Launch Image iPhone 5.png"; sourceTree = "<group>"; };
-		16279FF518CC49030005BD30 /* Launch Image iPhone 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Launch Image iPhone 4.png"; sourceTree = "<group>"; };
-		166975AE18CFFEAD00761160 /* App Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "App Icon.png"; path = "../App Icon.png"; sourceTree = "<group>"; };
-		167B2BB41BDD545400649D92 /* Calculate Molar Mass.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Calculate Molar Mass.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		167B2BB61BDD545400649D92 /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
-		167B2BB91BDD545400649D92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
-		167B2BBB1BDD545400649D92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		167BDDFD191AA8720012BEC4 /* Black Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Black Icon.png"; sourceTree = "<group>"; };
-		167BDDFE191AA8720012BEC4 /* Blue Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue Icon.png"; sourceTree = "<group>"; };
-		167BDDFF191AA8720012BEC4 /* Green Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green Icon.png"; sourceTree = "<group>"; };
-		167BDE00191AA8720012BEC4 /* Red Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Red Icon.png"; sourceTree = "<group>"; };
-		167BDE01191AA8720012BEC4 /* White Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "White Icon.png"; sourceTree = "<group>"; };
-		167BDE02191AA8720012BEC4 /* Yellow Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Yellow Icon.png"; sourceTree = "<group>"; };
-		1684EEA019023D93002B0A2A /* ShowWorkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowWorkViewController.h; sourceTree = "<group>"; };
-		1684EEA119023D93002B0A2A /* ShowWorkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowWorkViewController.m; sourceTree = "<group>"; };
-		1684EEA319023F1A002B0A2A /* GrowAnimatedTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowAnimatedTransition.h; sourceTree = "<group>"; };
-		1684EEA419023F1A002B0A2A /* GrowAnimatedTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowAnimatedTransition.m; sourceTree = "<group>"; };
-		168F75DB18CEBAFA003B0660 /* ElementInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElementInfoViewController.h; sourceTree = "<group>"; };
-		168F75DC18CEBAFA003B0660 /* ElementInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElementInfoViewController.m; sourceTree = "<group>"; };
-		168F75DE18CEC333003B0660 /* White Gradient Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "White Gradient Background.png"; sourceTree = "<group>"; };
-		168F75E018CEC42F003B0660 /* MoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreViewController.h; sourceTree = "<group>"; };
-		168F75E118CEC42F003B0660 /* MoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
-		16A2BA4A18FF18510016FB05 /* ThemesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemesViewController.h; sourceTree = "<group>"; };
-		16A2BA4B18FF18510016FB05 /* ThemesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThemesViewController.m; sourceTree = "<group>"; };
-		16A2BA4D18FF1F7C0016FB05 /* Black Checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Black Checkmark.png"; sourceTree = "<group>"; };
-		16A2BA4E18FF1F7C0016FB05 /* Blue Checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue Checkmark.png"; sourceTree = "<group>"; };
-		16A2BA4F18FF1F7C0016FB05 /* White Checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "White Checkmark.png"; sourceTree = "<group>"; };
-		16A2BA5718FF25C20016FB05 /* Green Gradient Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green Gradient Background.png"; sourceTree = "<group>"; };
-		16A2BA5B18FF30350016FB05 /* Blue Gradient Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue Gradient Background.png"; sourceTree = "<group>"; };
-		16A2BA5D18FF34300016FB05 /* Yellow Gradient Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Yellow Gradient Background.png"; sourceTree = "<group>"; };
-		16A2BA5F18FF371C0016FB05 /* Red Gradient Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Red Gradient Background.png"; sourceTree = "<group>"; };
-		16CE82A518D3CA0B006494A4 /* FormattingGuidelines.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FormattingGuidelines.txt; sourceTree = "<group>"; };
-		16CE82A718D3CBC9006494A4 /* GuidelinesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuidelinesViewController.h; sourceTree = "<group>"; };
-		16CE82A818D3CBC9006494A4 /* GuidelinesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuidelinesViewController.m; sourceTree = "<group>"; };
-		16D99EFE1BDF13810060B1BD /* Calculate Molar Mass-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Calculate Molar Mass-Bridging-Header.h"; sourceTree = "<group>"; };
-		16D99EFF1BDF13810060B1BD /* MassCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MassCalculator.h; sourceTree = "<group>"; };
-		16D99F001BDF13810060B1BD /* MassCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MassCalculator.m; sourceTree = "<group>"; };
-		16D9A92118CC66BB00E8D72A /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
-		16D9A92218CC66BB00E8D72A /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
-		16E31C3318D41435008330D7 /* ElementsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElementsViewController.h; sourceTree = "<group>"; };
-		16E31C3418D41435008330D7 /* ElementsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElementsViewController.m; sourceTree = "<group>"; };
-		16FB5AAB1BDC335300D295A8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		16FCF6CF18CBC40400A0E4B4 /* ChemWhiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChemWhiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		16FCF6D218CBC40400A0E4B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		16FCF6D418CBC40400A0E4B4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		16FCF6D618CBC40400A0E4B4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		16FCF6DA18CBC40400A0E4B4 /* ChemWhiz-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChemWhiz-Info.plist"; sourceTree = "<group>"; };
-		16FCF6DC18CBC40400A0E4B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		16FCF6DE18CBC40400A0E4B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		16FCF6E018CBC40400A0E4B4 /* ChemWhiz-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChemWhiz-Prefix.pch"; sourceTree = "<group>"; };
-		16FCF6E118CBC40400A0E4B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		16FCF6E218CBC40400A0E4B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		16FCF6E418CBC40400A0E4B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		16FCF6EA18CBC40400A0E4B4 /* ChemWhizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChemWhizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		16FCF6EB18CBC40400A0E4B4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		16FCF6F318CBC40400A0E4B4 /* ChemWhizTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChemWhizTests-Info.plist"; sourceTree = "<group>"; };
-		16FCF6F518CBC40400A0E4B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		16FCF6F718CBC40400A0E4B4 /* ChemWhizTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChemWhizTests.m; sourceTree = "<group>"; };
-		16FCF70118CBC4D700A0E4B4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		16FCF70518CBC88000A0E4B4 /* MolarMassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MolarMassViewController.h; sourceTree = "<group>"; };
-		16FCF70618CBC88000A0E4B4 /* MolarMassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MolarMassViewController.m; sourceTree = "<group>"; };
+		163508EA1C0A3017000F2F54 /* GrowPresentation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrowPresentation.swift; sourceTree = "<group>"; };
+		163508EC1C0A303C000F2F54 /* GrowTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrowTransition.swift; sourceTree = "<group>"; };
+		163508EE1C0A3050000F2F54 /* ShowWorkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowWorkViewController.swift; sourceTree = "<group>"; };
+		166632A71CFEAB5E009E0B41 /* ElementsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElementsTableViewController.swift; sourceTree = "<group>"; };
+		166632A91CFEAB76009E0B41 /* ElementDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElementDetailViewController.swift; sourceTree = "<group>"; };
+		166632AC1CFEAB93009E0B41 /* ElementsSplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElementsSplitViewController.swift; sourceTree = "<group>"; };
+		1697B4561BF6F0E200FB7F20 /* ChemWhiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChemWhiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1697B4591BF6F0E200FB7F20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1697B45E1BF6F0E200FB7F20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1697B4631BF6F0E200FB7F20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1697B4651BF6F0E200FB7F20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16A090EE1C21D55D00F840D9 /* Calculate Molar Mass.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Calculate Molar Mass.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16A090F01C21D55E00F840D9 /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
+		16A090F31C21D55E00F840D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		16A090F51C21D55E00F840D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16A408F81C20D6D300ADB213 /* Molar Mass Calculator.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Molar Mass Calculator.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16A408FA1C20D6D300ADB213 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		16A408FD1C20D6D300ADB213 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		16A409001C20D6D300ADB213 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		16A409021C20D6D300ADB213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16A409331C20F35A00ADB213 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		16A409381C20F4F700ADB213 /* ChemWhiz-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ChemWhiz-Bridging-Header.h"; sourceTree = "<group>"; };
+		16B74B1A1CFD331E000B443B /* ConversionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversionsViewController.swift; sourceTree = "<group>"; };
+		16E4DC2F1CFE74EC00865985 /* ConversionResultTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversionResultTableViewController.swift; sourceTree = "<group>"; };
+		16E4DC331CFE79D400865985 /* SlideUpTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideUpTransition.swift; sourceTree = "<group>"; };
+		16E4DC351CFE7A2900865985 /* SlideUpPresentation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideUpPresentation.swift; sourceTree = "<group>"; };
+		16EDC0F61C07F7030094448E /* MolarMassCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MolarMassCalculator.h; sourceTree = "<group>"; };
+		16EDC0F71C07F7030094448E /* MolarMassCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MolarMassCalculator.m; sourceTree = "<group>"; };
+		16EDC0F91C08306F0094448E /* MolarMassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MolarMassViewController.swift; sourceTree = "<group>"; };
+		16EDC0FB1C0832CB0094448E /* Chemical Symbols.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Chemical Symbols.plist"; path = "../../../Current Releases/ChemWhiz/Chemical Symbols.plist"; sourceTree = "<group>"; };
+		16EDC0FD1C08341F0094448E /* SlideFromLeftTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideFromLeftTransition.swift; sourceTree = "<group>"; };
+		16EDC0FF1C08386A0094448E /* ExamplesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExamplesViewController.swift; sourceTree = "<group>"; };
+		16EDC1011C083A530094448E /* SlideFromLeftPresentation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideFromLeftPresentation.swift; sourceTree = "<group>"; };
+		16FBF7EA1C23451900B925BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		167B2BB11BDD545400649D92 /* Frameworks */ = {
+		1697B4531BF6F0E200FB7F20 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		16FCF6CC18CBC40400A0E4B4 /* Frameworks */ = {
+		16A090EB1C21D55D00F840D9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16FCF6D518CBC40400A0E4B4 /* CoreGraphics.framework in Frameworks */,
-				16FCF6D718CBC40400A0E4B4 /* UIKit.framework in Frameworks */,
-				16FCF6D318CBC40400A0E4B4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		16FCF6E718CBC40400A0E4B4 /* Frameworks */ = {
+		16A408F51C20D6D300ADB213 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16FCF6EC18CBC40400A0E4B4 /* XCTest.framework in Frameworks */,
-				16FCF6EE18CBC40400A0E4B4 /* UIKit.framework in Frameworks */,
-				16FCF6ED18CBC40400A0E4B4 /* Foundation.framework in Frameworks */,
+				16A408FB1C20D6D300ADB213 /* NotificationCenter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		16010CAC18CBF8FD004FF113 /* App Icons */ = {
+		166632AB1CFEAB7A009E0B41 /* Elements Tab */ = {
 			isa = PBXGroup;
 			children = (
-				166975AE18CFFEAD00761160 /* App Icon.png */,
-				16010CAD18CBF8FD004FF113 /* iPadIcon.png */,
-				16010CAE18CBF8FD004FF113 /* iPadIcon@2x.png */,
-				16010CAF18CBF8FD004FF113 /* iPhoneIcon@2x.png */,
-			);
-			path = "App Icons";
-			sourceTree = "<group>";
-		};
-		16010CB618CC03F3004FF113 /* Tab Images */ = {
-			isa = PBXGroup;
-			children = (
-				16010CB718CC03F3004FF113 /* MassTab-Selected.png */,
-				16010CB818CC03F3004FF113 /* MassTab-Selected@2x.png */,
-				16010CB918CC03F3004FF113 /* MassTab.png */,
-				16010CBA18CC03F3004FF113 /* MassTab@2x.png */,
-				16010CC218CC0763004FF113 /* ConversionsTab.png */,
-				16010CC318CC0763004FF113 /* ConversionsTab-Selected.png */,
-				16010CC418CC0763004FF113 /* ConversionsTab-Selected@2x.png */,
-				16010CC518CC0763004FF113 /* ConversionsTab@2x.png */,
-				16010CCA18CC09D5004FF113 /* ElementsTab.png */,
-				16010CCB18CC09D5004FF113 /* ElementsTab-Selected.png */,
-				16010CCC18CC09D5004FF113 /* ElementsTab-Selected@2x.png */,
-				16010CCD18CC09D5004FF113 /* ElementsTab@2x.png */,
-			);
-			path = "Tab Images";
-			sourceTree = "<group>";
-		};
-		16279FF418CC48B90005BD30 /* Launch Images */ = {
-			isa = PBXGroup;
-			children = (
-				16279FF218CC48B50005BD30 /* Launch Image iPhone 5.png */,
-				16279FF518CC49030005BD30 /* Launch Image iPhone 4.png */,
-			);
-			name = "Launch Images";
-			sourceTree = "<group>";
-		};
-		167B2BB51BDD545400649D92 /* Calculate Molar Mass */ = {
-			isa = PBXGroup;
-			children = (
-				167B2BB61BDD545400649D92 /* ActionViewController.swift */,
-				16D99EFF1BDF13810060B1BD /* MassCalculator.h */,
-				16D99F001BDF13810060B1BD /* MassCalculator.m */,
-				167B2BB81BDD545400649D92 /* MainInterface.storyboard */,
-				167B2BBB1BDD545400649D92 /* Info.plist */,
-				16D99EFE1BDF13810060B1BD /* Calculate Molar Mass-Bridging-Header.h */,
-			);
-			path = "Calculate Molar Mass";
-			sourceTree = "<group>";
-		};
-		167BDDFC191AA8720012BEC4 /* Theme Icons */ = {
-			isa = PBXGroup;
-			children = (
-				167BDDFD191AA8720012BEC4 /* Black Icon.png */,
-				167BDDFE191AA8720012BEC4 /* Blue Icon.png */,
-				167BDDFF191AA8720012BEC4 /* Green Icon.png */,
-				167BDE00191AA8720012BEC4 /* Red Icon.png */,
-				167BDE01191AA8720012BEC4 /* White Icon.png */,
-				167BDE02191AA8720012BEC4 /* Yellow Icon.png */,
-			);
-			path = "Theme Icons";
-			sourceTree = "<group>";
-		};
-		16A2BA5318FF1F800016FB05 /* Theme Checkmarks */ = {
-			isa = PBXGroup;
-			children = (
-				16A2BA4D18FF1F7C0016FB05 /* Black Checkmark.png */,
-				16A2BA4E18FF1F7C0016FB05 /* Blue Checkmark.png */,
-				16A2BA4F18FF1F7C0016FB05 /* White Checkmark.png */,
-			);
-			name = "Theme Checkmarks";
-			sourceTree = "<group>";
-		};
-		16A2BA5418FF1FA20016FB05 /* Data Files */ = {
-			isa = PBXGroup;
-			children = (
-				16279FF018CC338B0005BD30 /* Chemical Symbols.plist */,
-				16CE82A518D3CA0B006494A4 /* FormattingGuidelines.txt */,
-			);
-			name = "Data Files";
-			sourceTree = "<group>";
-		};
-		16A2BA5518FF1FC70016FB05 /* Theme Backgrounds */ = {
-			isa = PBXGroup;
-			children = (
-				16010CAA18CBEDA7004FF113 /* Black Gradient Background.png */,
-				168F75DE18CEC333003B0660 /* White Gradient Background.png */,
-				16A2BA5718FF25C20016FB05 /* Green Gradient Background.png */,
-				16A2BA5B18FF30350016FB05 /* Blue Gradient Background.png */,
-				16A2BA5D18FF34300016FB05 /* Yellow Gradient Background.png */,
-				16A2BA5F18FF371C0016FB05 /* Red Gradient Background.png */,
-			);
-			name = "Theme Backgrounds";
-			sourceTree = "<group>";
-		};
-		16A2BA5618FF1FD20016FB05 /* Theme Graphics */ = {
-			isa = PBXGroup;
-			children = (
-				167BDDFC191AA8720012BEC4 /* Theme Icons */,
-				16A2BA5518FF1FC70016FB05 /* Theme Backgrounds */,
-				16A2BA5318FF1F800016FB05 /* Theme Checkmarks */,
-			);
-			name = "Theme Graphics";
-			sourceTree = "<group>";
-		};
-		16B7DE6318FF7B4B00CBD917 /* Elements Tab */ = {
-			isa = PBXGroup;
-			children = (
-				16E31C3318D41435008330D7 /* ElementsViewController.h */,
-				16E31C3418D41435008330D7 /* ElementsViewController.m */,
-				168F75DB18CEBAFA003B0660 /* ElementInfoViewController.h */,
-				168F75DC18CEBAFA003B0660 /* ElementInfoViewController.m */,
+				166632AC1CFEAB93009E0B41 /* ElementsSplitViewController.swift */,
+				166632A71CFEAB5E009E0B41 /* ElementsTableViewController.swift */,
+				166632A91CFEAB76009E0B41 /* ElementDetailViewController.swift */,
 			);
 			name = "Elements Tab";
 			sourceTree = "<group>";
 		};
-		16B7DE6418FF7B5500CBD917 /* About Tab */ = {
+		1697B44D1BF6F0E200FB7F20 = {
 			isa = PBXGroup;
 			children = (
-				16D9A92118CC66BB00E8D72A /* AboutViewController.h */,
-				16D9A92218CC66BB00E8D72A /* AboutViewController.m */,
-				16CE82A718D3CBC9006494A4 /* GuidelinesViewController.h */,
-				16CE82A818D3CBC9006494A4 /* GuidelinesViewController.m */,
-				168F75E018CEC42F003B0660 /* MoreViewController.h */,
-				168F75E118CEC42F003B0660 /* MoreViewController.m */,
-				16A2BA4A18FF18510016FB05 /* ThemesViewController.h */,
-				16A2BA4B18FF18510016FB05 /* ThemesViewController.m */,
-			);
-			name = "About Tab";
-			sourceTree = "<group>";
-		};
-		16B7DE6518FF7B5B00CBD917 /* Conversions Tab */ = {
-			isa = PBXGroup;
-			children = (
-				16010CB318CBFD25004FF113 /* ConversionsViewController.h */,
-				16010CB418CBFD25004FF113 /* ConversionsViewController.m */,
-				16279FED18CC22BB0005BD30 /* AnswersViewController.h */,
-				16279FEE18CC22BB0005BD30 /* AnswersViewController.m */,
-			);
-			name = "Conversions Tab";
-			sourceTree = "<group>";
-		};
-		16B7DE6618FF7B6200CBD917 /* Molar Mass Tab */ = {
-			isa = PBXGroup;
-			children = (
-				16FCF70518CBC88000A0E4B4 /* MolarMassViewController.h */,
-				16FCF70618CBC88000A0E4B4 /* MolarMassViewController.m */,
-				1684EEA019023D93002B0A2A /* ShowWorkViewController.h */,
-				1684EEA119023D93002B0A2A /* ShowWorkViewController.m */,
-				1684EEA319023F1A002B0A2A /* GrowAnimatedTransition.h */,
-				1684EEA419023F1A002B0A2A /* GrowAnimatedTransition.m */,
-			);
-			name = "Molar Mass Tab";
-			sourceTree = "<group>";
-		};
-		16FCF6C618CBC40400A0E4B4 = {
-			isa = PBXGroup;
-			children = (
-				16010CA618CBDE5C004FF113 /* Button Image.png */,
-				16010CA718CBDE5C004FF113 /* Button Image@2x.png */,
-				16279FF418CC48B90005BD30 /* Launch Images */,
-				16010CAC18CBF8FD004FF113 /* App Icons */,
-				16A2BA5418FF1FA20016FB05 /* Data Files */,
-				16010CB618CC03F3004FF113 /* Tab Images */,
-				16A2BA5618FF1FD20016FB05 /* Theme Graphics */,
-				16FCF6D818CBC40400A0E4B4 /* ChemWhiz */,
-				16FCF6F118CBC40400A0E4B4 /* ChemWhizTests */,
-				167B2BB51BDD545400649D92 /* Calculate Molar Mass */,
-				16FCF6D118CBC40400A0E4B4 /* Frameworks */,
-				16FCF6D018CBC40400A0E4B4 /* Products */,
+				1697B4581BF6F0E200FB7F20 /* ChemWhiz */,
+				16A408FC1C20D6D300ADB213 /* Molar Mass Calculator */,
+				16A090EF1C21D55E00F840D9 /* Calculate Molar Mass */,
+				16A408F91C20D6D300ADB213 /* Frameworks */,
+				1697B4571BF6F0E200FB7F20 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		16FCF6D018CBC40400A0E4B4 /* Products */ = {
+		1697B4571BF6F0E200FB7F20 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				16FCF6CF18CBC40400A0E4B4 /* ChemWhiz.app */,
-				16FCF6EA18CBC40400A0E4B4 /* ChemWhizTests.xctest */,
-				167B2BB41BDD545400649D92 /* Calculate Molar Mass.appex */,
+				1697B4561BF6F0E200FB7F20 /* ChemWhiz.app */,
+				16A408F81C20D6D300ADB213 /* Molar Mass Calculator.appex */,
+				16A090EE1C21D55D00F840D9 /* Calculate Molar Mass.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		16FCF6D118CBC40400A0E4B4 /* Frameworks */ = {
+		1697B4581BF6F0E200FB7F20 /* ChemWhiz */ = {
 			isa = PBXGroup;
 			children = (
-				16FCF6D218CBC40400A0E4B4 /* Foundation.framework */,
-				16FCF6D418CBC40400A0E4B4 /* CoreGraphics.framework */,
-				16FCF6D618CBC40400A0E4B4 /* UIKit.framework */,
-				16FCF6EB18CBC40400A0E4B4 /* XCTest.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		16FCF6D818CBC40400A0E4B4 /* ChemWhiz */ = {
-			isa = PBXGroup;
-			children = (
-				16FCF6E118CBC40400A0E4B4 /* AppDelegate.h */,
-				16FCF6E218CBC40400A0E4B4 /* AppDelegate.m */,
-				16FCF70118CBC4D700A0E4B4 /* Main.storyboard */,
-				16FB5AAB1BDC335300D295A8 /* LaunchScreen.storyboard */,
-				16B7DE6618FF7B6200CBD917 /* Molar Mass Tab */,
-				16B7DE6518FF7B5B00CBD917 /* Conversions Tab */,
-				16B7DE6318FF7B4B00CBD917 /* Elements Tab */,
-				16B7DE6418FF7B5500CBD917 /* About Tab */,
-				16FCF6E418CBC40400A0E4B4 /* Images.xcassets */,
-				16FCF6D918CBC40400A0E4B4 /* Supporting Files */,
+				1697B4591BF6F0E200FB7F20 /* AppDelegate.swift */,
+				1697B45D1BF6F0E200FB7F20 /* Main.storyboard */,
+				16E4DC311CFE74F800865985 /* Molar Mass Tab */,
+				16E4DC321CFE750800865985 /* Conversions Tab */,
+				166632AB1CFEAB7A009E0B41 /* Elements Tab */,
+				16EDC0F61C07F7030094448E /* MolarMassCalculator.h */,
+				16EDC0F71C07F7030094448E /* MolarMassCalculator.m */,
+				16EDC0FB1C0832CB0094448E /* Chemical Symbols.plist */,
+				1697B4621BF6F0E200FB7F20 /* LaunchScreen.storyboard */,
+				16FBF7EA1C23451900B925BE /* Assets.xcassets */,
+				16A409381C20F4F700ADB213 /* ChemWhiz-Bridging-Header.h */,
+				1697B4651BF6F0E200FB7F20 /* Info.plist */,
 			);
 			path = ChemWhiz;
 			sourceTree = "<group>";
 		};
-		16FCF6D918CBC40400A0E4B4 /* Supporting Files */ = {
+		16A090EF1C21D55E00F840D9 /* Calculate Molar Mass */ = {
 			isa = PBXGroup;
 			children = (
-				16FCF6DA18CBC40400A0E4B4 /* ChemWhiz-Info.plist */,
-				16FCF6DB18CBC40400A0E4B4 /* InfoPlist.strings */,
-				16FCF6DE18CBC40400A0E4B4 /* main.m */,
-				16FCF6E018CBC40400A0E4B4 /* ChemWhiz-Prefix.pch */,
+				16A090F01C21D55E00F840D9 /* ActionViewController.swift */,
+				16A090F21C21D55E00F840D9 /* MainInterface.storyboard */,
+				16A090F51C21D55E00F840D9 /* Info.plist */,
 			);
-			name = "Supporting Files";
+			path = "Calculate Molar Mass";
 			sourceTree = "<group>";
 		};
-		16FCF6F118CBC40400A0E4B4 /* ChemWhizTests */ = {
+		16A408F91C20D6D300ADB213 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				16FCF6F718CBC40400A0E4B4 /* ChemWhizTests.m */,
-				16FCF6F218CBC40400A0E4B4 /* Supporting Files */,
+				16A409331C20F35A00ADB213 /* UIKit.framework */,
+				16A408FA1C20D6D300ADB213 /* NotificationCenter.framework */,
 			);
-			path = ChemWhizTests;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		16FCF6F218CBC40400A0E4B4 /* Supporting Files */ = {
+		16A408FC1C20D6D300ADB213 /* Molar Mass Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				16FCF6F318CBC40400A0E4B4 /* ChemWhizTests-Info.plist */,
-				16FCF6F418CBC40400A0E4B4 /* InfoPlist.strings */,
+				16A408FD1C20D6D300ADB213 /* TodayViewController.swift */,
+				16A408FF1C20D6D300ADB213 /* MainInterface.storyboard */,
+				16A409021C20D6D300ADB213 /* Info.plist */,
 			);
-			name = "Supporting Files";
+			path = "Molar Mass Calculator";
+			sourceTree = "<group>";
+		};
+		16E4DC311CFE74F800865985 /* Molar Mass Tab */ = {
+			isa = PBXGroup;
+			children = (
+				16EDC0F91C08306F0094448E /* MolarMassViewController.swift */,
+				16EDC0FF1C08386A0094448E /* ExamplesViewController.swift */,
+				163508EA1C0A3017000F2F54 /* GrowPresentation.swift */,
+				163508EC1C0A303C000F2F54 /* GrowTransition.swift */,
+				163508EE1C0A3050000F2F54 /* ShowWorkViewController.swift */,
+				16EDC0FD1C08341F0094448E /* SlideFromLeftTransition.swift */,
+				16EDC1011C083A530094448E /* SlideFromLeftPresentation.swift */,
+			);
+			name = "Molar Mass Tab";
+			sourceTree = "<group>";
+		};
+		16E4DC321CFE750800865985 /* Conversions Tab */ = {
+			isa = PBXGroup;
+			children = (
+				16B74B1A1CFD331E000B443B /* ConversionsViewController.swift */,
+				16E4DC2F1CFE74EC00865985 /* ConversionResultTableViewController.swift */,
+				16E4DC331CFE79D400865985 /* SlideUpTransition.swift */,
+				16E4DC351CFE7A2900865985 /* SlideUpPresentation.swift */,
+			);
+			name = "Conversions Tab";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		167B2BB31BDD545400649D92 /* Calculate Molar Mass */ = {
+		1697B4551BF6F0E200FB7F20 /* ChemWhiz */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 167B2BBF1BDD545400649D92 /* Build configuration list for PBXNativeTarget "Calculate Molar Mass" */;
+			buildConfigurationList = 1697B4681BF6F0E200FB7F20 /* Build configuration list for PBXNativeTarget "ChemWhiz" */;
 			buildPhases = (
-				167B2BB01BDD545400649D92 /* Sources */,
-				167B2BB11BDD545400649D92 /* Frameworks */,
-				167B2BB21BDD545400649D92 /* Resources */,
+				1697B4521BF6F0E200FB7F20 /* Sources */,
+				1697B4531BF6F0E200FB7F20 /* Frameworks */,
+				1697B4541BF6F0E200FB7F20 /* Resources */,
+				16A409091C20D6D300ADB213 /* Embed App Extensions */,
+				16A4091D1C20EF9F00ADB213 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16A409041C20D6D300ADB213 /* PBXTargetDependency */,
+				16A090F71C21D55E00F840D9 /* PBXTargetDependency */,
+			);
+			name = ChemWhiz;
+			productName = ChemWhiz;
+			productReference = 1697B4561BF6F0E200FB7F20 /* ChemWhiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16A090ED1C21D55D00F840D9 /* Calculate Molar Mass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16A090FB1C21D55E00F840D9 /* Build configuration list for PBXNativeTarget "Calculate Molar Mass" */;
+			buildPhases = (
+				16A090EA1C21D55D00F840D9 /* Sources */,
+				16A090EB1C21D55D00F840D9 /* Frameworks */,
+				16A090EC1C21D55D00F840D9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -483,69 +292,54 @@
 			);
 			name = "Calculate Molar Mass";
 			productName = "Calculate Molar Mass";
-			productReference = 167B2BB41BDD545400649D92 /* Calculate Molar Mass.appex */;
+			productReference = 16A090EE1C21D55D00F840D9 /* Calculate Molar Mass.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		16FCF6CE18CBC40400A0E4B4 /* ChemWhiz */ = {
+		16A408F71C20D6D300ADB213 /* Molar Mass Calculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 16FCF6FB18CBC40400A0E4B4 /* Build configuration list for PBXNativeTarget "ChemWhiz" */;
+			buildConfigurationList = 16A409081C20D6D300ADB213 /* Build configuration list for PBXNativeTarget "Molar Mass Calculator" */;
 			buildPhases = (
-				16FCF6CB18CBC40400A0E4B4 /* Sources */,
-				16FCF6CC18CBC40400A0E4B4 /* Frameworks */,
-				16FCF6CD18CBC40400A0E4B4 /* Resources */,
-				167B2BAF1BDD53FA00649D92 /* Embed App Extensions */,
+				16A408F41C20D6D300ADB213 /* Sources */,
+				16A408F51C20D6D300ADB213 /* Frameworks */,
+				16A408F61C20D6D300ADB213 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				167B2BBD1BDD545400649D92 /* PBXTargetDependency */,
 			);
-			name = ChemWhiz;
-			productName = ChemWhiz;
-			productReference = 16FCF6CF18CBC40400A0E4B4 /* ChemWhiz.app */;
-			productType = "com.apple.product-type.application";
-		};
-		16FCF6E918CBC40400A0E4B4 /* ChemWhizTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 16FCF6FE18CBC40400A0E4B4 /* Build configuration list for PBXNativeTarget "ChemWhizTests" */;
-			buildPhases = (
-				16FCF6E618CBC40400A0E4B4 /* Sources */,
-				16FCF6E718CBC40400A0E4B4 /* Frameworks */,
-				16FCF6E818CBC40400A0E4B4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				16FCF6F018CBC40400A0E4B4 /* PBXTargetDependency */,
-			);
-			name = ChemWhizTests;
-			productName = ChemWhizTests;
-			productReference = 16FCF6EA18CBC40400A0E4B4 /* ChemWhizTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			name = "Molar Mass Calculator";
+			productName = "Molar Mass Calculator";
+			productReference = 16A408F81C20D6D300ADB213 /* Molar Mass Calculator.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		16FCF6C718CBC40400A0E4B4 /* Project object */ = {
+		1697B44E1BF6F0E200FB7F20 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0710;
-				LastUpgradeCheck = 0710;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Anant Jain";
 				TargetAttributes = {
-					167B2BB31BDD545400649D92 = {
-						CreatedOnToolsVersion = 7.1;
+					1697B4551BF6F0E200FB7F20 = {
+						CreatedOnToolsVersion = 7.1.1;
 						DevelopmentTeam = RENT9T8393;
+						LastSwiftMigration = 0800;
 					};
-					16FCF6CE18CBC40400A0E4B4 = {
+					16A090ED1C21D55D00F840D9 = {
+						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = RENT9T8393;
+						LastSwiftMigration = 0800;
 					};
-					16FCF6E918CBC40400A0E4B4 = {
-						TestTargetID = 16FCF6CE18CBC40400A0E4B4;
+					16A408F71C20D6D300ADB213 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = RENT9T8393;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
-			buildConfigurationList = 16FCF6CA18CBC40400A0E4B4 /* Build configuration list for PBXProject "ChemWhiz" */;
+			buildConfigurationList = 1697B4511BF6F0E200FB7F20 /* Build configuration list for PBXProject "ChemWhiz" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -553,213 +347,149 @@
 				en,
 				Base,
 			);
-			mainGroup = 16FCF6C618CBC40400A0E4B4;
-			productRefGroup = 16FCF6D018CBC40400A0E4B4 /* Products */;
+			mainGroup = 1697B44D1BF6F0E200FB7F20;
+			productRefGroup = 1697B4571BF6F0E200FB7F20 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				16FCF6CE18CBC40400A0E4B4 /* ChemWhiz */,
-				16FCF6E918CBC40400A0E4B4 /* ChemWhizTests */,
-				167B2BB31BDD545400649D92 /* Calculate Molar Mass */,
+				1697B4551BF6F0E200FB7F20 /* ChemWhiz */,
+				16A408F71C20D6D300ADB213 /* Molar Mass Calculator */,
+				16A090ED1C21D55D00F840D9 /* Calculate Molar Mass */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		167B2BB21BDD545400649D92 /* Resources */ = {
+		1697B4541BF6F0E200FB7F20 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				167B2BBA1BDD545400649D92 /* MainInterface.storyboard in Resources */,
+				1697B4641BF6F0E200FB7F20 /* LaunchScreen.storyboard in Resources */,
+				1697B45F1BF6F0E200FB7F20 /* Main.storyboard in Resources */,
+				16FBF7EB1C23451900B925BE /* Assets.xcassets in Resources */,
+				16EDC0FC1C0832CB0094448E /* Chemical Symbols.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		16FCF6CD18CBC40400A0E4B4 /* Resources */ = {
+		16A090EC1C21D55D00F840D9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16279FF118CC338B0005BD30 /* Chemical Symbols.plist in Resources */,
-				168F75DF18CEC333003B0660 /* White Gradient Background.png in Resources */,
-				167BDE08191AA8720012BEC4 /* Yellow Icon.png in Resources */,
-				16A2BA5C18FF30350016FB05 /* Blue Gradient Background.png in Resources */,
-				16010CD018CC09D5004FF113 /* ElementsTab-Selected@2x.png in Resources */,
-				16010CA918CBDE5C004FF113 /* Button Image@2x.png in Resources */,
-				16010CCF18CC09D5004FF113 /* ElementsTab-Selected.png in Resources */,
-				16010CC918CC0763004FF113 /* ConversionsTab@2x.png in Resources */,
-				167BDE04191AA8720012BEC4 /* Blue Icon.png in Resources */,
-				16010CAB18CBEDA7004FF113 /* Black Gradient Background.png in Resources */,
-				16010CBB18CC03F3004FF113 /* MassTab-Selected.png in Resources */,
-				167BDE07191AA8720012BEC4 /* White Icon.png in Resources */,
-				16010CCE18CC09D5004FF113 /* ElementsTab.png in Resources */,
-				16010CC818CC0763004FF113 /* ConversionsTab-Selected@2x.png in Resources */,
-				166975AF18CFFEAD00761160 /* App Icon.png in Resources */,
-				16010CC618CC0763004FF113 /* ConversionsTab.png in Resources */,
-				16CE82A618D3CA0B006494A4 /* FormattingGuidelines.txt in Resources */,
-				16010CD118CC09D5004FF113 /* ElementsTab@2x.png in Resources */,
-				16A2BA5818FF25C20016FB05 /* Green Gradient Background.png in Resources */,
-				16FB5AAC1BDC335300D295A8 /* LaunchScreen.storyboard in Resources */,
-				16010CB218CBF8FD004FF113 /* iPhoneIcon@2x.png in Resources */,
-				167BDE06191AA8720012BEC4 /* Red Icon.png in Resources */,
-				16A2BA5218FF1F7C0016FB05 /* White Checkmark.png in Resources */,
-				16279FF318CC48B50005BD30 /* Launch Image iPhone 5.png in Resources */,
-				16A2BA5018FF1F7C0016FB05 /* Black Checkmark.png in Resources */,
-				16FCF70218CBC4D700A0E4B4 /* Main.storyboard in Resources */,
-				16010CBE18CC03F3004FF113 /* MassTab@2x.png in Resources */,
-				167BDE03191AA8720012BEC4 /* Black Icon.png in Resources */,
-				16A2BA5118FF1F7C0016FB05 /* Blue Checkmark.png in Resources */,
-				16010CB118CBF8FD004FF113 /* iPadIcon@2x.png in Resources */,
-				16A2BA5E18FF34300016FB05 /* Yellow Gradient Background.png in Resources */,
-				16FCF6DD18CBC40400A0E4B4 /* InfoPlist.strings in Resources */,
-				167BDE05191AA8720012BEC4 /* Green Icon.png in Resources */,
-				16010CA818CBDE5C004FF113 /* Button Image.png in Resources */,
-				16010CBC18CC03F3004FF113 /* MassTab-Selected@2x.png in Resources */,
-				16010CB018CBF8FD004FF113 /* iPadIcon.png in Resources */,
-				16FCF6E518CBC40400A0E4B4 /* Images.xcassets in Resources */,
-				16279FF618CC49030005BD30 /* Launch Image iPhone 4.png in Resources */,
-				16010CC718CC0763004FF113 /* ConversionsTab-Selected.png in Resources */,
-				16010CBD18CC03F3004FF113 /* MassTab.png in Resources */,
-				16A2BA6018FF371C0016FB05 /* Red Gradient Background.png in Resources */,
+				16A090F41C21D55E00F840D9 /* MainInterface.storyboard in Resources */,
+				16FBF7ED1C23451900B925BE /* Assets.xcassets in Resources */,
+				16A090FC1C21D57D00F840D9 /* Chemical Symbols.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		16FCF6E818CBC40400A0E4B4 /* Resources */ = {
+		16A408F61C20D6D300ADB213 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16FCF6F618CBC40400A0E4B4 /* InfoPlist.strings in Resources */,
+				16A4093D1C20FB7600ADB213 /* Chemical Symbols.plist in Resources */,
+				16FBF7EC1C23451900B925BE /* Assets.xcassets in Resources */,
+				16A409011C20D6D300ADB213 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		167B2BB01BDD545400649D92 /* Sources */ = {
+		1697B4521BF6F0E200FB7F20 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				167B2BB71BDD545400649D92 /* ActionViewController.swift in Sources */,
-				16D99F011BDF13810060B1BD /* MassCalculator.m in Sources */,
+				16EDC1021C083A530094448E /* SlideFromLeftPresentation.swift in Sources */,
+				166632AA1CFEAB76009E0B41 /* ElementDetailViewController.swift in Sources */,
+				16E4DC361CFE7A2900865985 /* SlideUpPresentation.swift in Sources */,
+				16E4DC301CFE74EC00865985 /* ConversionResultTableViewController.swift in Sources */,
+				163508ED1C0A303C000F2F54 /* GrowTransition.swift in Sources */,
+				166632A81CFEAB5E009E0B41 /* ElementsTableViewController.swift in Sources */,
+				16E4DC341CFE79D400865985 /* SlideUpTransition.swift in Sources */,
+				1697B45A1BF6F0E200FB7F20 /* AppDelegate.swift in Sources */,
+				16EDC1001C08386A0094448E /* ExamplesViewController.swift in Sources */,
+				163508EF1C0A3050000F2F54 /* ShowWorkViewController.swift in Sources */,
+				163508EB1C0A3017000F2F54 /* GrowPresentation.swift in Sources */,
+				16EDC0FA1C08306F0094448E /* MolarMassViewController.swift in Sources */,
+				166632AD1CFEAB93009E0B41 /* ElementsSplitViewController.swift in Sources */,
+				16EDC0FE1C08341F0094448E /* SlideFromLeftTransition.swift in Sources */,
+				16B74B1B1CFD331E000B443B /* ConversionsViewController.swift in Sources */,
+				16A409351C20F45D00ADB213 /* MolarMassCalculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		16FCF6CB18CBC40400A0E4B4 /* Sources */ = {
+		16A090EA1C21D55D00F840D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16FCF70718CBC88000A0E4B4 /* MolarMassViewController.m in Sources */,
-				16FCF6E318CBC40400A0E4B4 /* AppDelegate.m in Sources */,
-				16010CB518CBFD25004FF113 /* ConversionsViewController.m in Sources */,
-				168F75DD18CEBAFA003B0660 /* ElementInfoViewController.m in Sources */,
-				168F75E218CEC42F003B0660 /* MoreViewController.m in Sources */,
-				16CE82A918D3CBC9006494A4 /* GuidelinesViewController.m in Sources */,
-				16D9A92318CC66BB00E8D72A /* AboutViewController.m in Sources */,
-				16FCF6DF18CBC40400A0E4B4 /* main.m in Sources */,
-				16279FEF18CC22BB0005BD30 /* AnswersViewController.m in Sources */,
-				16E31C3518D41435008330D7 /* ElementsViewController.m in Sources */,
-				1684EEA219023D93002B0A2A /* ShowWorkViewController.m in Sources */,
-				1684EEA519023F1A002B0A2A /* GrowAnimatedTransition.m in Sources */,
-				16A2BA4C18FF18510016FB05 /* ThemesViewController.m in Sources */,
+				16A090FF1C22519500F840D9 /* GrowPresentation.swift in Sources */,
+				16A090F11C21D55E00F840D9 /* ActionViewController.swift in Sources */,
+				16A090FE1C22512E00F840D9 /* ShowWorkViewController.swift in Sources */,
+				16A091001C22519700F840D9 /* GrowTransition.swift in Sources */,
+				16A090FD1C21D58100F840D9 /* MolarMassCalculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		16FCF6E618CBC40400A0E4B4 /* Sources */ = {
+		16A408F41C20D6D300ADB213 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16FCF6F818CBC40400A0E4B4 /* ChemWhizTests.m in Sources */,
+				16A408FE1C20D6D300ADB213 /* TodayViewController.swift in Sources */,
+				16A409361C20F45D00ADB213 /* MolarMassCalculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		167B2BBD1BDD545400649D92 /* PBXTargetDependency */ = {
+		16A090F71C21D55E00F840D9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 167B2BB31BDD545400649D92 /* Calculate Molar Mass */;
-			targetProxy = 167B2BBC1BDD545400649D92 /* PBXContainerItemProxy */;
+			target = 16A090ED1C21D55D00F840D9 /* Calculate Molar Mass */;
+			targetProxy = 16A090F61C21D55E00F840D9 /* PBXContainerItemProxy */;
 		};
-		16FCF6F018CBC40400A0E4B4 /* PBXTargetDependency */ = {
+		16A409041C20D6D300ADB213 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 16FCF6CE18CBC40400A0E4B4 /* ChemWhiz */;
-			targetProxy = 16FCF6EF18CBC40400A0E4B4 /* PBXContainerItemProxy */;
+			target = 16A408F71C20D6D300ADB213 /* Molar Mass Calculator */;
+			targetProxy = 16A409031C20D6D300ADB213 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		167B2BB81BDD545400649D92 /* MainInterface.storyboard */ = {
+		1697B45D1BF6F0E200FB7F20 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				167B2BB91BDD545400649D92 /* Base */,
+				1697B45E1BF6F0E200FB7F20 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1697B4621BF6F0E200FB7F20 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1697B4631BF6F0E200FB7F20 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		16A090F21C21D55E00F840D9 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16A090F31C21D55E00F840D9 /* Base */,
 			);
 			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
-		16FCF6DB18CBC40400A0E4B4 /* InfoPlist.strings */ = {
+		16A408FF1C20D6D300ADB213 /* MainInterface.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				16FCF6DC18CBC40400A0E4B4 /* en */,
+				16A409001C20D6D300ADB213 /* Base */,
 			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		16FCF6F418CBC40400A0E4B4 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				16FCF6F518CBC40400A0E4B4 /* en */,
-			);
-			name = InfoPlist.strings;
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		167B2BC01BDD545400649D92 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "Calculate Molar Mass/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.ChemWhiz.Calculate-Molar-Mass";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "Calculate Molar Mass/Calculate Molar Mass-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
-		167B2BC11BDD545400649D92 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "Calculate Molar Mass/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.ChemWhiz.Calculate-Molar-Mass";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "Calculate Molar Mass/Calculate Molar Mass-Bridging-Header.h";
-			};
-			name = Release;
-		};
-		16FCF6F918CBC40400A0E4B4 /* Debug */ = {
+		1697B4661BF6F0E200FB7F20 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -774,32 +504,37 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		16FCF6FA18CBC40400A0E4B4 /* Release */ = {
+		1697B4671BF6F0E200FB7F20 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -814,146 +549,174 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		16FCF6FC18CBC40400A0E4B4 /* Debug */ = {
+		1697B4691BF6F0E200FB7F20 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ChemWhiz/ChemWhiz-Prefix.pch";
-				INFOPLIST_FILE = "ChemWhiz/ChemWhiz-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.${PRODUCT_NAME:rfc1034identifier}";
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = RENT9T8393;
+				INFOPLIST_FILE = ChemWhiz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.ChemWhiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				TARGETED_DEVICE_FAMILY = 1;
-				WRAPPER_EXTENSION = app;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ChemWhiz/ChemWhiz-Bridging-Header.h";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "ChemWhiz/ChemWhiz-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		16FCF6FD18CBC40400A0E4B4 /* Release */ = {
+		1697B46A1BF6F0E200FB7F20 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ChemWhiz/ChemWhiz-Prefix.pch";
-				INFOPLIST_FILE = "ChemWhiz/ChemWhiz-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.${PRODUCT_NAME:rfc1034identifier}";
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = RENT9T8393;
+				INFOPLIST_FILE = ChemWhiz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.ChemWhiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				TARGETED_DEVICE_FAMILY = 1;
-				WRAPPER_EXTENSION = app;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ChemWhiz/ChemWhiz-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
-		16FCF6FF18CBC40400A0E4B4 /* Debug */ = {
+		16A090F91C21D55E00F840D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ChemWhiz.app/ChemWhiz";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ChemWhiz/ChemWhiz-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "ChemWhizTests/ChemWhizTests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.${PRODUCT_NAME:rfc1034identifier}";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				DEVELOPMENT_TEAM = RENT9T8393;
+				INFOPLIST_FILE = "Calculate Molar Mass/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.ChemWhiz.Calculate-Molar-Mass";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ChemWhiz/ChemWhiz-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		16FCF70018CBC40400A0E4B4 /* Release */ = {
+		16A090FA1C21D55E00F840D9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ChemWhiz.app/ChemWhiz";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ChemWhiz/ChemWhiz-Prefix.pch";
-				INFOPLIST_FILE = "ChemWhizTests/ChemWhizTests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.${PRODUCT_NAME:rfc1034identifier}";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				DEVELOPMENT_TEAM = RENT9T8393;
+				INFOPLIST_FILE = "Calculate Molar Mass/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.ChemWhiz.Calculate-Molar-Mass";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ChemWhiz/ChemWhiz-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		16A409061C20D6D300ADB213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RENT9T8393;
+				INFOPLIST_FILE = "Molar Mass Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.ChemWhiz.Molar-Mass-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ChemWhiz/ChemWhiz-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		16A409071C20D6D300ADB213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RENT9T8393;
+				INFOPLIST_FILE = "Molar Mass Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.ChemWhiz.Molar-Mass-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ChemWhiz/ChemWhiz-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		167B2BBF1BDD545400649D92 /* Build configuration list for PBXNativeTarget "Calculate Molar Mass" */ = {
+		1697B4511BF6F0E200FB7F20 /* Build configuration list for PBXProject "ChemWhiz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				167B2BC01BDD545400649D92 /* Debug */,
-				167B2BC11BDD545400649D92 /* Release */,
+				1697B4661BF6F0E200FB7F20 /* Debug */,
+				1697B4671BF6F0E200FB7F20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		16FCF6CA18CBC40400A0E4B4 /* Build configuration list for PBXProject "ChemWhiz" */ = {
+		1697B4681BF6F0E200FB7F20 /* Build configuration list for PBXNativeTarget "ChemWhiz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				16FCF6F918CBC40400A0E4B4 /* Debug */,
-				16FCF6FA18CBC40400A0E4B4 /* Release */,
+				1697B4691BF6F0E200FB7F20 /* Debug */,
+				1697B46A1BF6F0E200FB7F20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		16FCF6FB18CBC40400A0E4B4 /* Build configuration list for PBXNativeTarget "ChemWhiz" */ = {
+		16A090FB1C21D55E00F840D9 /* Build configuration list for PBXNativeTarget "Calculate Molar Mass" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				16FCF6FC18CBC40400A0E4B4 /* Debug */,
-				16FCF6FD18CBC40400A0E4B4 /* Release */,
+				16A090F91C21D55E00F840D9 /* Debug */,
+				16A090FA1C21D55E00F840D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		16FCF6FE18CBC40400A0E4B4 /* Build configuration list for PBXNativeTarget "ChemWhizTests" */ = {
+		16A409081C20D6D300ADB213 /* Build configuration list for PBXNativeTarget "Molar Mass Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				16FCF6FF18CBC40400A0E4B4 /* Debug */,
-				16FCF70018CBC40400A0E4B4 /* Release */,
+				16A409061C20D6D300ADB213 /* Debug */,
+				16A409071C20D6D300ADB213 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 16FCF6C718CBC40400A0E4B4 /* Project object */;
+	rootObject = 1697B44E1BF6F0E200FB7F20 /* Project object */;
 }
