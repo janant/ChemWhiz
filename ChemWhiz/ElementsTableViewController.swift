@@ -50,7 +50,13 @@ class ElementsTableViewController: UITableViewController, UISearchResultsUpdatin
         // Configures search controller
         searchController.obscuresBackgroundDuringPresentation = false
         searchController.searchResultsUpdater = self
-        self.tableView.tableHeaderView = searchController.searchBar
+        
+        // Adds the search bar to the UI
+        if #available(iOS 11.0, *) {
+            self.navigationItem.searchController = searchController
+        } else {
+            self.tableView.tableHeaderView = searchController.searchBar
+        }
         
         // Configures search bar
         searchController.searchBar.keyboardAppearance = .dark
@@ -75,7 +81,7 @@ class ElementsTableViewController: UITableViewController, UISearchResultsUpdatin
             return elementsData.count
         }
         
-        if searchText.characters.count == 0 {
+        if searchText.count == 0 {
             return elementsData.count
         }
         else {
@@ -90,7 +96,7 @@ class ElementsTableViewController: UITableViewController, UISearchResultsUpdatin
         let elementInfo: [String: AnyObject]!
         
         if let searchText = searchController.searchBar.text {
-            if searchText.characters.count == 0 {
+            if searchText.count == 0 {
                 elementInfo = elementsData[(indexPath as NSIndexPath).row]
             }
             else {
@@ -146,7 +152,7 @@ class ElementsTableViewController: UITableViewController, UISearchResultsUpdatin
         
         filteredElementsData = [[String: AnyObject]]()
         
-        if searchText.characters.count == 0 {
+        if searchText.count == 0 {
             self.tableView.reloadData()
             return
         }
@@ -180,7 +186,7 @@ class ElementsTableViewController: UITableViewController, UISearchResultsUpdatin
             if let navVC = segue.destination as? UINavigationController {
                 if let elementDetailVC = navVC.topViewController as? ElementDetailViewController {
                     if let searchText = searchController.searchBar.text {
-                        if searchText.characters.count == 0 {
+                        if searchText.count == 0 {
                             elementDetailVC.elementData = elementsData[(indexPath as NSIndexPath).row]
                         }
                         else {

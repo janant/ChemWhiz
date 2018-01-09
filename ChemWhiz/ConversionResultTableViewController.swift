@@ -60,8 +60,14 @@ class ConversionResultTableViewController: UITableViewController {
         
         inputQtyUnitsLabel.text = "\(qty) \(unitNameForConversionUnit(inputUnits))"
         formulaLabel.text = "\(formula) (\(molarMass) g/mol)"
-        outputQtyLabel.text = String(format: "%.2f", calculate())
         outputUnitsLabel.text = unitNameForConversionUnit(outputUnits)
+        
+        if outputUnits == .particles {
+            outputQtyLabel.text = String(format: "%.4g", calculate())
+        }
+        else {
+            outputQtyLabel.text = String(format: "%.3f", calculate())
+        }
         
         doneButtonCell.backgroundColor = doneButtonCell.contentView.backgroundColor
     }

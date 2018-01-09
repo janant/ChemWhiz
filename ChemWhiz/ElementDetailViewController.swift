@@ -63,7 +63,7 @@ class ElementDetailViewController: UIViewController {
         // self.navigationItem.title = elementName
     }
     
-    func shareElement() {
+    @objc func shareElement() {
         guard
             let data = elementData,
             let elementSymbol = data["Symbol"] as? String,

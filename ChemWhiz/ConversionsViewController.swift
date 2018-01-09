@@ -102,7 +102,7 @@ class ConversionsViewController: UIViewController, UITableViewDataSource, UITabl
                 inputQtyTextField.inputAccessoryView = inputQtyAccessoryToolbar
                 
                 // Sets placeholder text to appropriate color
-                inputQtyTextField.attributedPlaceholder = NSAttributedString(string: "Enter quantity...", attributes: [NSForegroundColorAttributeName: UIColor.gray])
+                inputQtyTextField.attributedPlaceholder = NSAttributedString(string: "Enter quantity...", attributes: [NSAttributedStringKey.foregroundColor: UIColor.gray])
                 
             case 1:
                 cell = tableView.dequeueReusableCell(withIdentifier: "Units Cell", for: indexPath)
@@ -123,7 +123,7 @@ class ConversionsViewController: UIViewController, UITableViewDataSource, UITabl
                 inputChemicalTextField.inputAccessoryView = inputQtyAccessoryToolbar
                 
                 // Sets placeholder text to appropriate color
-                inputChemicalTextField.attributedPlaceholder = NSAttributedString(string: "Enter chemical formula...", attributes: [NSForegroundColorAttributeName: UIColor.gray])
+                inputChemicalTextField.attributedPlaceholder = NSAttributedString(string: "Enter chemical formula...", attributes: [NSAttributedStringKey.foregroundColor: UIColor.gray])
                 
             default:
                 return UITableViewCell()
@@ -209,7 +209,7 @@ class ConversionsViewController: UIViewController, UITableViewDataSource, UITabl
     }
     
     func pickerView(_ pickerView: UIPickerView, attributedTitleForRow row: Int, forComponent component: Int) -> NSAttributedString? {
-        let attributes = [NSForegroundColorAttributeName: UIColor.white]
+        let attributes = [NSAttributedStringKey.foregroundColor: UIColor.white]
         
         switch row {
         case 0:

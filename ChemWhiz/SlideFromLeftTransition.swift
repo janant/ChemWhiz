@@ -32,8 +32,7 @@ class SlideFromLeftTransition: NSObject, UIViewControllerAnimatedTransitioning {
     func presentAnimation(_ transitionContext: UIViewControllerContextTransitioning) {
         guard
             let toView = transitionContext.view(forKey: UITransitionContextViewKey.to),
-            let toVC = transitionContext.viewController(forKey: UITransitionContextViewControllerKey.to),
-            let fromVC = transitionContext.viewController(forKey: UITransitionContextViewControllerKey.from)
+            let toVC = transitionContext.viewController(forKey: UITransitionContextViewControllerKey.to)
         else {
             transitionContext.completeTransition(false)
             return
@@ -45,8 +44,6 @@ class SlideFromLeftTransition: NSObject, UIViewControllerAnimatedTransitioning {
         toView.frame = finalFrame
         toView.frame.origin.x -= offset
         
-        fromVC.beginAppearanceTransition(false, animated: true)
-        toVC.beginAppearanceTransition(true, animated: true)
         container.addSubview(toView)
         
         UIView.animate(withDuration: transitionDuration(using: transitionContext), delay: 0, usingSpringWithDamping: 1.0, initialSpringVelocity: 0, options: .curveEaseOut, animations: { () -> Void in
@@ -58,17 +55,13 @@ class SlideFromLeftTransition: NSObject, UIViewControllerAnimatedTransitioning {
     
     func dismissAnimation(_ transitionContext: UIViewControllerContextTransitioning) {
         guard
-            let fromView = transitionContext.view(forKey: UITransitionContextViewKey.from),
-            let fromVC = transitionContext.viewController(forKey: UITransitionContextViewControllerKey.from),
-            let toVC = transitionContext.viewController(forKey: UITransitionContextViewControllerKey.to)
+            let fromView = transitionContext.view(forKey: UITransitionContextViewKey.from)
         else {
                 transitionContext.completeTransition(false)
                 return
         }
         
         let offset = fromView.frame.size.width
-        fromVC.beginAppearanceTransition(false, animated: true)
-        toVC.beginAppearanceTransition(true, animated: true)
         
         UIView.animate(withDuration: transitionDuration(using: transitionContext), delay: 0, usingSpringWithDamping: 1.0, initialSpringVelocity: 0, options: .curveEaseOut, animations: { () -> Void in
             fromView.frame.origin.x -= offset

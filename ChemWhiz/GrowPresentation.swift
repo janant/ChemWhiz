@@ -63,7 +63,7 @@ class GrowPresentation: UIPresentationController {
         }
     }
     
-    func dismiss() {
+    @objc func dismiss() {
         presentedViewController.dismiss(animated: true, completion: nil)
     }
     

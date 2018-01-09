@@ -34,8 +34,7 @@ class GrowTransition: NSObject, UIViewControllerAnimatedTransitioning {
     func presentAnimation(_ transitionContext: UIViewControllerContextTransitioning) {
         guard
             let toView = transitionContext.view(forKey: UITransitionContextViewKey.to),
-            let toVC = transitionContext.viewController(forKey: UITransitionContextViewControllerKey.to),
-            let fromVC = transitionContext.viewController(forKey: UITransitionContextViewControllerKey.from)
+            let toVC = transitionContext.viewController(forKey: UITransitionContextViewControllerKey.to)
         else {
                 transitionContext.completeTransition(false)
                 return
@@ -51,8 +50,6 @@ class GrowTransition: NSObject, UIViewControllerAnimatedTransitioning {
         toView.transform = scaleTransformation.concatenating(translationTransformation)
         toView.alpha = 0.0
         
-        fromVC.beginAppearanceTransition(false, animated: true)
-        toVC.beginAppearanceTransition(true, animated: true)
         container.addSubview(toView)
         
         UIView.animate(withDuration: transitionDuration(using: transitionContext), delay: 0, usingSpringWithDamping: 0.8, initialSpringVelocity: 10, options: .curveEaseOut, animations: { () -> Void in
@@ -66,15 +63,11 @@ class GrowTransition: NSObject, UIViewControllerAnimatedTransitioning {
     func dismissAnimation(_ transitionContext: UIViewControllerContextTransitioning) {
         guard
             let fromView = transitionContext.view(forKey: UITransitionContextViewKey.from),
-            let fromVC = transitionContext.viewController(forKey: UITransitionContextViewControllerKey.from),
-            let toVC = transitionContext.viewController(forKey: UITransitionContextViewControllerKey.to)
+            let fromVC = transitionContext.viewController(forKey: UITransitionContextViewControllerKey.from)
             else {
                 transitionContext.completeTransition(false)
                 return
         }
-        
-        fromVC.beginAppearanceTransition(false, animated: true)
-        toVC.beginAppearanceTransition(true, animated: true)
         
         let finalFrame = transitionContext.finalFrame(for: fromVC)
         

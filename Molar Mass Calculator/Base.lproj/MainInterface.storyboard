@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11521.1" systemVersion="16A319" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="M4Y-Lb-cyx">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="M4Y-Lb-cyx">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11517.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -11,15 +15,12 @@
         <scene sceneID="cwh-vc-ff4">
             <objects>
                 <viewController id="M4Y-Lb-cyx" customClass="TodayViewController" customModule="Molar_Mass_Calculator" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Ft6-oW-KC0"/>
-                        <viewControllerLayoutGuide type="bottom" id="FKl-LY-JtV"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" simulatedAppContext="notificationCenter" id="S3S-Oj-5AN">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rv3-yW-1zw">
+                                <rect key="frame" x="25.5" y="77" width="269" height="46"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="46" id="akl-WG-x5f"/>
                                     <constraint firstAttribute="width" constant="269" id="msy-Az-fEk"/>
@@ -31,13 +32,16 @@
                                 </connections>
                             </button>
                             <stackView hidden="YES" opaque="NO" alpha="0.0" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="vfv-hJ-c57">
+                                <rect key="frame" x="36" y="77.5" width="248" height="45"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="255" verticalHuggingPriority="251" horizontalCompressionResistancePriority="747" verticalCompressionResistancePriority="746" text="H2O" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="gkG-J4-7P5">
+                                        <rect key="frame" x="0.0" y="0.0" width="57" height="45"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="=" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O5H-uM-6Do">
+                                        <rect key="frame" x="104" y="0.0" width="40" height="45"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="40" id="d5C-DE-avn"/>
                                         </constraints>
@@ -46,13 +50,16 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="4rH-lO-scc">
+                                        <rect key="frame" x="191" y="0.0" width="57" height="45"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="253" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="18.02" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kss-Y4-Gt2">
+                                                <rect key="frame" x="1.5" y="0.0" width="55.5" height="24.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="g/mol" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rhJ-Yw-92L">
+                                                <rect key="frame" x="13.5" y="24.5" width="43.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -70,11 +77,12 @@
                         <constraints>
                             <constraint firstItem="vfv-hJ-c57" firstAttribute="centerY" secondItem="S3S-Oj-5AN" secondAttribute="centerY" id="7Ms-7h-GKx"/>
                             <constraint firstItem="vfv-hJ-c57" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leadingMargin" constant="20" id="N3Q-32-UgE"/>
-                            <constraint firstItem="vfv-hJ-c57" firstAttribute="centerX" secondItem="S3S-Oj-5AN" secondAttribute="centerX" id="Tjt-h3-aY6"/>
+                            <constraint firstItem="vfv-hJ-c57" firstAttribute="centerX" secondItem="gVZ-1A-B90" secondAttribute="centerX" id="Tjt-h3-aY6"/>
                             <constraint firstAttribute="trailingMargin" secondItem="vfv-hJ-c57" secondAttribute="trailing" constant="20" id="UbJ-9p-mFt"/>
-                            <constraint firstItem="Rv3-yW-1zw" firstAttribute="centerX" secondItem="S3S-Oj-5AN" secondAttribute="centerX" id="l87-Bf-fzf"/>
+                            <constraint firstItem="Rv3-yW-1zw" firstAttribute="centerX" secondItem="gVZ-1A-B90" secondAttribute="centerX" id="l87-Bf-fzf"/>
                             <constraint firstItem="Rv3-yW-1zw" firstAttribute="centerY" secondItem="S3S-Oj-5AN" secondAttribute="centerY" id="zTa-3H-Cjk"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="gVZ-1A-B90"/>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
                     <nil key="simulatedStatusBarMetrics"/>
@@ -91,15 +99,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vXp-U4-Rya" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="516" y="283"/>
+            <point key="canvasLocation" x="825.60000000000002" y="254.57271364317845"/>
         </scene>
     </scenes>
     <resources>
         <image name="Widget Calculate Button Background" width="576" height="100"/>
     </resources>
-    <simulatedMetricsContainer key="defaultSimulatedMetrics">
-        <simulatedStatusBarMetrics key="statusBar"/>
-        <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
-    </simulatedMetricsContainer>
 </document>
